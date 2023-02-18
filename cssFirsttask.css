@@ -1,0 +1,166 @@
+body
+{
+display: block;
+margin: 2px;
+font-family: roboto;
+}
+.f
+{
+ width:100%;
+ height:50px;
+ background:#E5E5E5;
+ position: static;
+ font-size: 17px;
+ text-align: center;
+ font-family: Roboto;
+ padding-top: 17px;
+ word-spacing:25px;
+}
+a
+{
+	 text-decoration:none;
+
+}
+.menu
+{
+width: 100%;
+height: 170px;
+position:relative;
+border: 1px solid transparent;
+}
+.logo
+{
+	width: 150px;
+	height: 39px;
+	border: 1px solid none;
+	position: absolute;
+	left: 505px;
+	top: 70px;
+	color:#F13C6E; 
+	font-size: 36px;
+	font-family: Roboto; 
+	letter-spacing: 0.1em;
+	line-height: 40px;
+	cursor: pointer;
+
+}
+.inpser
+{
+	position: absolute;
+	height: auto;
+	width: 190px;
+	color: black;
+	border: none;
+	border-bottom: 1px solid transparent;
+	background-color: transparent;
+	margin-top:10px;
+}
+.search
+{
+width: 250px;
+height: 40px;
+background-color:#EFEFEF;
+border-radius: 40px;
+position: absolute;
+left: 835px;
+top: 70px;
+padding: 2px;
+}
+.phone
+{ 
+	position: absolute;
+	left: 1178px;
+	top: 80px;
+	font-family: arial;
+	font-size: 16px;
+	font-style: normal;
+	color: #000000;
+	display: revert;
+}
+
+.btbkcall
+{
+	position: absolute;
+	width: 170px;
+	height: 40px;
+	left: 1345px;
+	top: 70px;
+	border-radius: 40px;
+	background: #FFFFFF;
+	border: 2 px solid;
+	border-color: #F13C6E;
+	cursor: pointer;
+		
+}
+.clhr
+{
+width: 100%;
+position: relative;
+right: 0px;
+border: solid 1px #EFEFEF ;
+}
+.secondM
+{
+text-align: center;
+word-spacing: 40px;
+color:#000000;
+font-family: Roboto; 
+padding: 12px;
+border: none;
+font-size: 16px;
+line-height: 19px;
+font-style: normal;
+}
+.bilbord
+{
+width: 100%;
+height: 604px;
+background-color:#F13C6E;
+position: relative;
+}
+.more
+{
+	position: absolute;
+	width:170px;
+	height:40px;
+	left: 405px;
+	top: 370px;
+	background-color: transparent;
+	color:#FFFFFF ;
+	border: 2px solid #FFFFFF;
+	border-radius:40px;
+	cursor:pointer;
+}
+.titlu{
+	position: absolute;
+	left: 405px;
+	top: 192px;
+	font-size: 40px;
+	color:#FFFFFF; 
+}
+.continut
+{ 
+	position: absolute;
+	width: 300px;
+	height: auto;
+    color:#FFFFFF; 
+    text-align: justify;
+    left: 405px;
+    top: 286px;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+}
+h2
+{
+	position: relative;
+}
+.tab1
+{
+position: relative;
+width: auto;
+border: 10px solid black;
+left: 405px;
+padding: 10px;
+
+}
