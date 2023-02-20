@@ -1,0 +1,252 @@
+body
+{
+display: block;
+margin: 2px;
+font-family: robot;
+}
+.f
+{
+ width:100%;
+ height:50px;
+ background:#E5E5E5;
+ position: static;
+ font-size: 17px;
+ text-align: center;
+ font-family: Roboto;
+ padding-top: 17px;
+ word-spacing:25px;
+}
+a
+{
+	 text-decoration:none;
+
+}
+.menu
+{
+width: 100%;
+height: 170px;
+position:relative;
+border: 1px solid transparent;
+}
+.logo
+{
+	width: 150px;
+	height: 39px;
+	border: 1px solid none;
+	position: absolute;
+	left: 505px;
+	top: 70px;
+	color:#F13C6E; 
+	font-size: 36px;
+	font-family: Roboto; 
+	letter-spacing: 0.1em;
+	line-height: 40px;
+	cursor: pointer;
+
+}
+.inpser
+{
+	position: absolute;
+	height: auto;
+	width: 190px;
+	color: black;
+	border: none;
+	border-bottom: 1px solid transparent;
+	background-color: transparent;
+	margin-top:10px;
+}
+.search
+{
+width: 250px;
+height: 40px;
+background-color:#EFEFEF;
+border-radius: 40px;
+position: absolute;
+left: 835px;
+top: 70px;
+padding: 2px;
+}
+.phone
+{ 
+	position: absolute;
+	left: 1178px;
+	top: 80px;
+	font-family: arial;
+	font-size: 16px;
+	font-style: normal;
+	color: #000000;
+	display: revert;
+}
+
+.btbkcall
+{
+	position: absolute;
+	width: 170px;
+	height: 40px;
+	left: 1345px;
+	top: 70px;
+	border-radius: 40px;
+	background: #FFFFFF;
+	border: 2 px solid;
+	border-color: #F13C6E;
+	cursor: pointer;
+		
+}
+.clhr
+{
+width: 100%;
+position: relative;
+right: 0px;
+border: solid 1px #EFEFEF ;
+}
+.secondM
+{
+text-align: center;
+word-spacing: 40px;
+color:#000000;
+font-family: Roboto; 
+padding: 12px;
+border: none;
+font-size: 16px;
+line-height: 19px;
+font-style: normal;
+}
+.bilbord
+{
+width: 100%;
+height: 604px;
+background-color:#F13C6E;
+position: relative;
+}
+.more
+{
+	position: absolute;
+	width:170px;
+	height:40px;
+	left: 405px;
+	top: 370px;
+	background-color:#F13C6E;
+	color:#FFFFFF ;
+	border: 2px solid #FFFFFF;
+	border-radius:40px;
+	cursor:pointer;
+}
+.titlu{
+	position: absolute;
+	left: 405px;
+	top: 192px;
+	font-size: 40px;
+	color:#FFFFFF; 
+}
+.continut
+{ 
+	position: absolute;
+	width: 300px;
+	height: auto;
+    color:#FFFFFF; 
+    text-align: justify;
+    left: 405px;
+    top: 286px;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+}
+.h2
+{
+	position: relative;
+	left:405px;
+	font-size:24px;
+	top: 10px;
+	line-weight: 100px;
+}
+.specialoffer
+{
+
+width: 100%;
+background-color:#EFEFEF;
+}
+.specialimg
+{
+	width: 300px;
+	height: auto;
+	background-color: white;
+	margin-right: 50px;
+	
+
+}
+.btby
+{
+	width:170px;
+	height:40px;
+	background-color:#F13C6E;
+	color:#FFFFFF ;
+	border: 2px solid #FFFFFF;
+	border-radius:40px;
+	cursor:pointer;
+	align-self: flex-end;
+	margin-bottom: 30px;
+
+	
+	
+}
+.textspecial
+{
+color: #333333;
+}
+.tab1
+{
+	width: 100%;
+	position: relative;
+	width: auto; 
+	left: 390px;
+	margin-top: 15px;
+	padding:10px;
+}
+
+.bonus
+{
+	position:relative;
+	width: auto;
+	border: 1px solid black;
+	left: 400px; 
+}
+.box
+{
+width: auto;
+height: 212px;
+position: relative;
+background-color:#F13C6E;
+padding: 10px;
+margin: 0px;
+left: 405px;
+display: flex;
+align-items: center;
+
+}
+.textbox1
+{
+color:#FFFFFF;
+font-size: 18px;
+
+
+}
+.textbox2
+{
+color:#FFFFFF;
+font-size: 14px;
+align-self: center;
+
+}
+.emailinp
+{
+width: 220px;
+height: 35px;
+position: relative;
+border-radius: 30px;
+background-color: white;
+border-color: transparent;
+padding-left:25px;
+top: 15px;
+right: 20px;
+align-self:end;
+}
