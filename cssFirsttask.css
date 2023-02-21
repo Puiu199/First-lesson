@@ -80,7 +80,7 @@ padding: 2px;
 }
 .btbkcall
 {
-	position: absolute;
+	position: relative;
 	width: 170px;
 	height: 40px;
 	left: 1345px;
@@ -174,9 +174,10 @@ position: relative;
 }
 .specialoffer
 {
-width: 100%;
+width: auto;
 height: auto;
 background-color:#EFEFEF;
+padding: 50px;
 }
 .specialimg
 {
