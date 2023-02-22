@@ -1,34 +1,57 @@
+/*Style's tabel for gift*/
 .box 
 {
-position: relative;
-width:auto;
-height: auto;
-background-color:#F13C6E;
-margin-top: 100px;
-margin-bottom: 100px;
-left: 405px;
-padding: px;
-display: fixed;
-border-spacing: 15px;
+	position: relative;
+	width:auto;
+	height: auto;
+	background-color:#F13C6E;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	left: 405px;
+	display: fixed;
+	padding: 25px;
 }
+/*Style for first label in table box */
 .textbox1
 {
-color:#FFFFFF;
-font-size: 18px;
-position: relative;
-left: auto;
-text-align: justify;
-top: auto;
+	width: auto;
+	height: auto;
+	color:#FFFFFF;
+	font-size: 18px;
+	position: relative;
+	left: auto;
+	text-align: left;
+	top: auto;
+	letter-spacing: 1.0;
 }
+/*Style for second label in table box */
 .textbox2
 {
-color:#FFFFFF;
-font-size: 14px;
-position: relative;
-text-align: justify;
-left: auto;
-top: auto;
+	width: 250px;
+	height: auto;
+	color:#FFFFFF;
+	font-size: 14px;
+	position: relative;
+	text-align: left;
+	left: auto;
+	top: auto;
+	letter-spacing: 1.5;
+	padding: 2px;
 }
+/*Style for input email*/
+.emailinp
+{
+	width: 220px;
+	height: 35px;
+	position: relative;
+	border-radius: 30px;
+	background-color: white;
+	border-color: transparent;
+	padding-left:25px;
+	left: auto;
+	top: 60px;
+}
+/*Setings for button for map */
 .salescard
 {
 	position: relative;
@@ -41,35 +64,23 @@ top: auto;
 	cursor:pointer;
 	left: auto;
 	top:60px;
-	float: left;
-
-
 }
-.emailinp
-{
-width: 220px;
-height: 35px;
-position: relative;
-border-radius: 30px;
-background-color: white;
-border-color: transparent;
-padding-left:25px;
-left: auto;
-top: 60px;
-
-}
-.publicitate
+/*Sales elements*/
+.things
 {
 	position: relative;
-	width: auto;
+	width: 1000px;
+	height: 100%;
 	margin-bottom: 80px;
 	border: 2px solid black;
 	margin-left: 405px;
 	padding: 25px;
 	background-color: white;
 	top: 10px;
+
 }
 
+/*Style for Footer*/
 .divfooter1
 {
 	position: relative;
