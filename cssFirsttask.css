@@ -1,10 +1,13 @@
 body
 {
-	width:1920px;
+	width:100%;
 	height: auto;
-	display: block;
-	margin: 2px;
+	position: static;
+	margin: 0px;
 	font-family: robot;
+}
+th,td,tr{
+	border: 1px solid black;
 }
 /*1)Style for first menu*/
 .f
@@ -27,21 +30,25 @@ a
 /*2) Create Second menu with search input*/
 .menu
 {
-	width: 100%;
+
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
 	height: 170px;
-	position:relative;
-	border: 1px solid transparent;
+	padding-top: auto;
+	padding-bottom: auto;
+	border: 1px solid black;
+	
 }
 /*Style for button search*/
 .butsearch
 {
 	width:50px;
 	height: 50px;
-	position: absolute;
 	background-image: url(https://icons.veryicon.com/png/o/miscellaneous/enterprise-service-function-icon/search-931.png);
 	background-size:100%;
-	left: 815px;
-	top: 70px;
+	margin-bottom: auto;
+	margin-top: auto;
 	background-repeat: no-repeat;
 	border:transparent;
 	background-color: transparent;
@@ -126,8 +133,11 @@ a
 /*3)Style for adverting*/
 .bilbord
 {
+	border: 1px solid black;
 	width: 100%;
 	height: 604px;
+	margin-right: auto;
+	margin-left: auto;
 	background-color:#F13C6E;
 	position: relative;
 }
@@ -197,19 +207,19 @@ a
 /*Style for title*/
 .h2
 {
-	position: relative;
-	left:405px;
+	border: 1px solid black;
 	font-size:24px;
-	top: 10px;
 	line-weight: 100px;
+	margin-left: 25.5%;
+
 }
 /*4)Section for special offert*/
 .tab1
 {
 	width: auto;
 	height: auto;
-	position: relative;
-	left: 380px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 20px;
 	margin-bottom: 50px;
 }
