@@ -6,9 +6,7 @@ body
 	margin: 0px;
 	font-family: robot;
 }
-th,td,tr{
-	border: 1px solid black;
-}
+
 /*1)Style for first menu*/
 .f
 {
@@ -31,42 +29,37 @@ a
 .menu
 {
 
-	width: auto;
-	margin-left: auto;
-	margin-right: auto;
+	width: 100%;
 	height: 170px;
-	padding-top: auto;
-	padding-bottom: auto;
-	border: 1px solid black;
-	
-}
-/*Style for button search*/
-.butsearch
-{
-	width:50px;
-	height: 50px;
-	background-image: url(https://icons.veryicon.com/png/o/miscellaneous/enterprise-service-function-icon/search-931.png);
-	background-size:100%;
-	margin-bottom: auto;
-	margin-top: auto;
-	background-repeat: no-repeat;
 	border:transparent;
-	background-color: transparent;
+	display: flex;
+
 }
 .logo
 {
 	width: 150px;
 	height: 39px;
-	border: 1px solid none;
-	position: absolute;
-	left: 505px;
-	top: 70px;
+	border: none;
 	color:#F13C6E; 
 	font-size: 36px;
 	font-family: Roboto; 
 	letter-spacing: 0.1em;
 	line-height: 40px;
 	cursor: pointer;
+	margin: auto;
+
+}
+/*Style for button search*/
+.butsearch
+{	
+	width:50px;
+	height: 50px;
+	background-image: url(https://icons.veryicon.com/png/o/miscellaneous/enterprise-service-function-icon/search-931.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+	border:transparent;
+	background-color: transparent;
+	position: relative;
 }
 /*Search input*/
 .search
@@ -75,37 +68,36 @@ a
 	height: 40px;
 	background-color:#EFEFEF;
 	border-radius: 40px;
-	position: relative;
-	left: 815px;
-	top: 70px;
+	margin: auto;
 	padding: 2px;
 	padding-left: 50px;
+	position: absolute;
+	margin: auto;
 }
 /*Label for phone number*/
 .phone
 { 
-	position: absolute;
-	left: 1178px;
-	top: 80px;
+	
 	font-family: roboto;
 	font-size: 16px;
 	font-style: normal;
 	color: #000000;
-	display: revert;
+	margin: auto;	
+	position: absolute;
 }
 /*Button for call back */
 .btbkcall
 {
-	position: relative;
+
 	width: 170px;
 	height: 40px;
-	left: 1345px;
-	top: 25px;
 	border-radius: 40px;
 	background: #FFFFFF;
 	border: 2 px solid;
 	border-color: #F13C6E;
 	cursor: pointer;	
+	margin: auto;
+	margin-left: 10px;
 }
 /* Finish 2)*/
 
@@ -136,64 +128,61 @@ a
 	border: 1px solid black;
 	width: 100%;
 	height: 604px;
-	margin-right: auto;
-	margin-left: auto;
 	background-color:#F13C6E;
-	position: relative;
+	display: flex;
+}
+/*Style for label title's */
+.titlu
+{
+	font-size: 40px;
+	color:#FFFFFF; 
+   align-self: start;	
+   margin-top: 150px;
+}
+/*Style for label information*/
+.continut
+{ 
+
+	width: 300px;
+	height: auto;
+    color:#FFFFFF; 
+    text-align: center;
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    line-height: 1.2;
+    align-self: center;
 }
 /*Style for button more*/
 .more
-{
-	position: absolute;
+{	
 	width:170px;
 	height:40px;
-	left: 405px;
-	top: 370px;
 	background-color:#F13C6E;
 	color:#FFFFFF ;
 	border: 2px solid #FFFFFF;
 	border-radius:40px;
 	cursor:pointer;
+	align-self: end;
+	margin-bottom: 150px;
+
 }
-/*Style for label title's */
-.titlu
-{
-	position: absolute;
-	left: 405px;
-	top: 192px;
-	font-size: 40px;
-	color:#FFFFFF; 
-}
-/*Style for label information*/
-.continut
-{ 
-	position: absolute;
-	width: 300px;
-	height: auto;
-    color:#FFFFFF; 
-    text-align: center;
-    left: 405px;
-    top: 286px;
-    font-size: 14px;
-    font-family: Roboto;
-    font-style: normal;
-    line-height: 1.2;
-}
+
 /*Settings for image adverting*/
 .imgbilbord
 {
+ 	margin: auto;
 	width: 400px;
 	height:400px;
 	border: 100px solid black;
 	border-radius: 50%;
-	position: absolute;
-	right: 450px;
 	border-color: #f57699;
 	background-image: url("https://www.pngall.com/wp-content/uploads/11/Office-Chair-PNG-Images.png");
 	background-size: 95%;
 	background-repeat: no-repeat;
 	background-color: #f9adc2;
-	align-items: center;
+	
+	
 }
 /* Finish 3)*/
 /*Style for div offert btween bilbord and footer */
@@ -210,7 +199,6 @@ a
 	border: 1px solid black;
 	font-size:24px;
 	line-weight: 100px;
-	margin-left: 25.5%;
 
 }
 /*4)Section for special offert*/
