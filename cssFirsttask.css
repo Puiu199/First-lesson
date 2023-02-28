@@ -2,7 +2,7 @@ body
 {
 	width:100%;
 	height: auto;
-	position: static;
+	display: block;
 	margin: 0px;
 	font-family: robot;
 }
@@ -28,12 +28,10 @@ a
 /*2) Create Second menu with search input*/
 .menu
 {
-
-	width: 100%;
+	width: auto;
 	height: 170px;
 	border:transparent;
-	display: flex;
-
+	display:flex;   
 }
 .logo
 {
@@ -46,33 +44,34 @@ a
 	letter-spacing: 0.1em;
 	line-height: 40px;
 	cursor: pointer;
+	align-self: center;
 	margin: auto;
-
 }
 /*Style for button search*/
 .butsearch
 {	
-	width:50px;
-	height: 50px;
+	width:35px;
+	height: 35px;
 	background-image: url(https://icons.veryicon.com/png/o/miscellaneous/enterprise-service-function-icon/search-931.png);
 	background-size:100%;
 	background-repeat: no-repeat;
-	border:transparent;
-	background-color: transparent;
-	position: relative;
+	border:1px solid black;
+	position: absolute;
+	background-color: transparent; 	align-self: center;
+	margin-left: 35px;
+	
 }
 /*Search input*/
 .search
 {	
-	width: 245px;
+	width: auto;
 	height: 40px;
 	background-color:#EFEFEF;
 	border-radius: 40px;
-	margin: auto;
-	padding: 2px;
-	padding-left: 50px;
-	position: absolute;
-	margin: auto;
+	padding-left: 30px;
+	border: none;
+	display: flex;
+	align-self: center;
 }
 /*Label for phone number*/
 .phone
@@ -82,8 +81,9 @@ a
 	font-size: 16px;
 	font-style: normal;
 	color: #000000;
-	margin: auto;	
-	position: absolute;
+	align-self: center;
+	margin: auto;
+
 }
 /*Button for call back */
 .btbkcall
@@ -96,8 +96,9 @@ a
 	border: 2 px solid;
 	border-color: #F13C6E;
 	cursor: pointer;	
-	margin: auto;
-	margin-left: 10px;
+	align-self: center;
+	margin:auto;
+	
 }
 /* Finish 2)*/
 
@@ -134,15 +135,16 @@ a
 /*Style for label title's */
 .titlu
 {
+	font-weight: bold;
 	font-size: 40px;
 	color:#FFFFFF; 
-   align-self: start;	
-   margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 /*Style for label information*/
 .continut
 { 
-
 	width: 300px;
 	height: auto;
     color:#FFFFFF; 
@@ -151,7 +153,8 @@ a
     font-family: Roboto;
     font-style: normal;
     line-height: 1.2;
-    align-self: center;
+    
+    
 }
 /*Style for button more*/
 .more
@@ -163,9 +166,8 @@ a
 	border: 2px solid #FFFFFF;
 	border-radius:40px;
 	cursor:pointer;
-	align-self: end;
-	margin-bottom: 150px;
-
+	margin-left: auto;
+	margin-right: auto;	
 }
 
 /*Settings for image adverting*/
@@ -181,25 +183,27 @@ a
 	background-size: 95%;
 	background-repeat: no-repeat;
 	background-color: #f9adc2;
-	
-	
+	margin-left: auto;
+	margin-right: auto;
 }
 /* Finish 3)*/
 /*Style for div offert btween bilbord and footer */
 .specialoffer
 {
-	width: auto;
+	width: 100%;
 	height: auto;
 	background-color:#EFEFEF;
-	padding: 50px;
+	display: block;
+	margin: 0px;
 }
 /*Style for title*/
 .h2
 {
 	border: 1px solid black;
 	font-size:24px;
-	line-weight: 100px;
-
+	font-weight: bold;
+	margin-left: 380px;position: relative;
+	
 }
 /*4)Section for special offert*/
 .tab1
@@ -210,6 +214,7 @@ a
 	margin-right: auto;
 	margin-top: 20px;
 	margin-bottom: 50px;
+		
 }
 /*Settings for imagine in Специальные предложения*/
 .specialimg
@@ -239,6 +244,7 @@ a
 }
 .bprice
 {
+	font-weight: bold;
 	font-size: 21px;
 	line-height: 25px;
 	position: relative;
