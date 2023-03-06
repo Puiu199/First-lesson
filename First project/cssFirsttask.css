@@ -2,7 +2,6 @@ body
 {
 	width:100%;
 	height: auto;
-	display: block;
 	margin: 0px;
 	font-family: robot;
 	border: none;
@@ -31,7 +30,7 @@ a
 .menu
 {
 	width: auto;
-	height: 170px;
+	height: 120px;
 	border:transparent;
 	display:flex;   
 }
@@ -58,23 +57,26 @@ a
 	background-size:100%;
 	background-repeat: no-repeat;
 	border:none;
-	position: relative;
-	background-color: transparent; 	
-	align-self: center;
-	left: 40px;
+    position: absolute;
+  	background-color: transparent; 
+	margin-top: 41px;	
 		
 }
 /*Search input*/
 .search
-{	
-	width: 300px;
+{
+	width: 400px;
 	height: 40px;
 	background-color:#EFEFEF;
 	border-radius: 40px;
-	padding-left: 30px;
+	margin: auto;
+
+	padding-left: 50px;
 	border: none;
-	display: flex;
-	align-self: center;
+    margin-top: 38px;
+	
+	
+	
 }
 /*Label for phone number*/
 .phone
@@ -92,15 +94,17 @@ a
 .btbkcall
 {
 
+    display: flex;
 	width: 170px;
 	height: 40px;
 	border-radius: 40px;
 	background: #FFFFFF;
-	border: 2 px solid;
-	border-color: #F13C6E;
+	border: 2px solid #F13C6E;
 	cursor: pointer;	
 	align-self: center;
 	margin:auto;
+	justify-content: center;
+    align-items: center;
 	
 }
 /* Finish 2)*/
@@ -166,6 +170,7 @@ a
 /*Style for button more*/
 .more
 {	
+	display: flex;
 	width:170px;
 	height:40px;
 	background-color:#F13C6E;
@@ -174,6 +179,8 @@ a
 	border-radius:40px;
 	cursor:pointer;
     margin-top: 35px;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Settings for image adverting*/
@@ -201,6 +208,7 @@ a
 	display: block;
 	margin: 0px;
 	padding: 25px;
+	box-sizing: border-box;
 
 }
 /*Style for title*/
@@ -265,6 +273,7 @@ a
 /*Style for button by from tab1*/
 .btby
 {
+	display: flex;
 	width:170px;
 	height:40px;
 	background-color:#F13C6E;
@@ -277,6 +286,9 @@ a
 	cursor:pointer;
 	align-self: end;
 	margin-bottom: 30px;
+	justify-content: center;
+	align-items: center;
+
 }
 .btcallback2
 {

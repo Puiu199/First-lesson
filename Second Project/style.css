@@ -1,0 +1,50 @@
+body
+{
+	width: 100%;
+	height: auto;
+	margin: 0px;
+}
+.first-menue
+{
+	width: 100%;
+	height:50px;
+	background:#828282 ;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+select
+{
+
+}
+.heart
+{
+	width: 20px;
+	height: auto;
+	background-image: url("https://icons.veryicon.com/png/o/miscellaneous/business-linear-icon-2/heart-86.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 200px;
+	padding: 2px;
+	display: flex;
+	align-items: start;
+	justify-content: right;
+
+}
+.delivery
+{
+	display: block;
+	background-image: url("https://icons.veryicon.com/png/o/miscellaneous/yunnan-construction-investment-and/delivery-plan.png");
+	width: 20px;
+	height: auto;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.contact
+{
+	width: 20px;
+	height: 20px;
+	display: block;
+	background-image: url("https://icons.veryicon.com/png/o/miscellaneous/online-medicine-city-system-icon/phone-235.png");
+}
