@@ -8,9 +8,12 @@
 	background-color:#F13C6E;
 	margin-top: 100px;
 	margin-bottom: 100px;
-	left: 405px;
-	display: fixed;
 	padding: 25px;
+	border-spacing: 5px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	display: ;
+
 }
 /*Style for first label in table box */
 .textbox1
@@ -91,7 +94,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	background-color: white;
-	margin-bottom: 15px;
+	margin-bottom: 0px;
 }
 .divfooter1
 {
@@ -122,15 +125,21 @@ ul
 }
 .divfooter3
 {	
-	
+	width: 75%;
+	height:120px;
 	border: none;
-	width: auto;
-	height: auto;
+	display: flex;
 	font-family: roboto;
 	font-size: 14px;
 	line-height: 16px;
 	text-align: center;
-	margin: px;
+	margin:auto;
+	margin-top: 0px;
+	align-items: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	box-sizing: border-box;
+	justify-content: space-evenly;
 	
 }
 .hrfooter
@@ -140,7 +149,7 @@ ul
 	height: 1px;
 	border: none;
 	margin-top: 270px;
-	background-color: gray;
+	background-color: #EFEFEF;
 }
 footer
 {

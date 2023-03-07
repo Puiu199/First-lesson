@@ -2,7 +2,7 @@ body
 {
 	width: 100%;
 	height: auto;
-	margin: 0px;
+    margin: 0px;
 }
 .first-menue
 {
@@ -11,58 +11,103 @@ body
 	background:#333333;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-evenly;
 	color: white;
+	box-sizing: border-box;
 	padding-left: 250px;
 	padding-right: 250px;
-	box-sizing: border-box;
 }
 a
 {
 	color: white;
 	text-decoration: none;
-
 }
 select
 {
-margin: auto;
-background: transparent;
-color: #828282;
-border: none;
+	width: auto;
+	height: auto;
+	background-color: transparent;
+	border: none;
+	color: #828282;
 }
 .heart
 {
-	width: 20px;
+	width: 120px;
 	height: auto;
-	background-image: url("https://icons.veryicon.com/png/o/miscellaneous/business-linear-icon-2/heart-86.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	margin: auto;
-	padding: 2px;
 	display: flex;
-	align-items: start;
-	justify-content: right;
-
+	background-image: url("https://icons.veryicon.com/png/o/miscellaneous/business-linear-icon-2/heart-86.png");
+	background-size: 15%;
+	background-repeat: no-repeat;
+	justify-content: center;
 }
 .delivery
-{   width: 150px;
-	display: block;
-	background-image: url("https://icons.veryicon.com/png/o/miscellaneous/yunnan-construction-investment-and/delivery-plan.png");
+{   width: 180px;
 	height: auto;
-	background-size: 100%;
+	display: flex;
+	background-image: url("https://icons.veryicon.com/png/o/miscellaneous/yunnan-construction-investment-and/delivery-plan.png");
+	background-size: 10%;
 	background-repeat: no-repeat;
-	margin: auto;
+	justify-content: center;
 }
 .contact
 {
-	width: 20px;
-	height: 20px;
-	display: block;
-	margin: auto;
+	width: 120px;
+	height: auto;
+	display: flex;
 	background-image: url("https://icons.veryicon.com/png/o/miscellaneous/online-medicine-city-system-icon/phone-235.png");
+	background-size:15%;
+	background-repeat: no-repeat;
+	justify-content: center;
 }
 .login
-{width: auto;
-	display: block;
+{
+	width: 185px;
+	display:flex;
+	background-image: url("user.png");
+	background-size: 9%;
+	background-repeat: no-repeat;
+	justify-content: center;
+}
+.bigimg
+{
+	width:40%;
+	height: 670px;
+	border: 1px solid black;
+	float: left;
+	margin-left: auto;
+	margin-right: 0px;
+	font-weight: bold;
+	font-size: 36px;
+	box-sizing: border-box;
+	font-family: Museo Sans Cyrl;
+}
+.allcategories
+{
+	display: flex;
+	width: 40%;
+	height: 670px;
+	border: 1px solid black;
+	float: right;
+	margin-left: auto;
+	flex-wrap: wrap;
+	
+}
+.categories
+{
+	display: flex;
+	width:330px;
+	height:320px;
+	border: 1px solid black;
+	float: left;
 	margin: auto;
+	padding-top: 50px;
+	color: black;
+	font-weight: bold;
+	font-size: 36px;
+	box-sizing: border-box;
+	font-family: Museo Sans Cyrl;
+}
+.rouse
+{
+	background-image: ;
 }
