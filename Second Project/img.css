@@ -1,0 +1,40 @@
+.rose
+{
+	background-image:url("img/rose.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.gift
+{
+	background-image:url("img/gift.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.basket
+{
+	background-image:url("img/basket.svg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	object-fit: cover;
+	object-position: 15% 100%;
+	background-color: #FFDB6B;
+}
+.logoimg
+{
+
+background-image: url("img/logo.png");
+background-repeat: no-repeat;
+background-size: 100%;
+
+}
+.bg{
+background-image: url("img/bg.svg");
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.flowers-basket
+{
+background-image: url("img/flowers-basket.svg");
+background-repeat: no-repeat;
+background-size: 100%;
+}
