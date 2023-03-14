@@ -12,29 +12,28 @@
 }
 .basket
 {
-	background-image:url("img/basket.svg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	object-fit: cover;
-	object-position: 15% 100%;
-	background-color: #FFDB6B;
+	background-image: url(img/basket.svg);
+    background-repeat: no-repeat;
+    background-size: 164%;
+    object-fit: cover;
+    background-position-y: -20px;
+    background-position-x: 15px;
+    background-color: #FFDB6B;
 }
 .logoimg
 {
 
 background-image: url("img/logo.png");
 background-repeat: no-repeat;
-background-size: 100%;
+background-size: contain;
+display: block;
 
 }
 .bg{
-background-image: url("img/bg.svg");
-background-repeat: no-repeat;
-background-size: 100%;
+    background-image: url(img/flowers-basket.svg),url(img/bg.svg);
+    background-repeat: no-repeat,no-repeat;
+    background-size: 137%,contain;
+    background-position-x: 67px,0px;
+    background-position-y: 48px,0px;
 }
-.flowers-basket
-{
-background-image: url("img/flowers-basket.svg");
-background-repeat: no-repeat;
-background-size: 100%;
-}
+
